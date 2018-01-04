@@ -7,7 +7,6 @@
  */
 ini_set('display_errors',1);
 define('LARAVEL_START', microtime(true));
-sdasdas
 /*
 |--------------------------------------------------------------------------
 | Register The Auto Loader
