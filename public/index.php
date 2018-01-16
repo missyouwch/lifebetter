@@ -5,8 +5,6 @@
  * @package  Laravel
  * @author   Taylor Otwell <taylor@laravel.com>
  */
-exit('you are welcome to make life better!');
-ini_set('display_errors',1);
 define('LARAVEL_START', microtime(true));
 /*
 |--------------------------------------------------------------------------
