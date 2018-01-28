@@ -110,9 +110,12 @@ return [
 
         'default' => [
             'host' => env('REDIS_HOST', 'redis-master'),
-            'password' => env('REDIS_PASSWORD', null),
+            'password' => env('REDIS_PASSWORD', 'i8htzt0AlByCJX3x'),
             'port' => env('REDIS_PORT', 6379),
             'database' => 0,
+            'parameters'=>[
+                'password'=>env('REDIS_PASSWORD', 'i8htzt0AlByCJX3x')
+            ]
         ],
 
     ],
