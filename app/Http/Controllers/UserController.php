@@ -21,6 +21,7 @@ class UserController extends Controller
      * */
     public function remenList()
     {
+        echo REDIS_PASSWORD;die;
         $key = 'user:recomenList';
         Redis::zadd($key,1,'{"name":"huanhuan"}');
         return response()->json([
